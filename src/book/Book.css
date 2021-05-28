@@ -1,0 +1,75 @@
+
+/* Page */ 
+.book {
+  position: relative;
+  margin: 100px 200px;
+}
+.book h3 {
+  font-size: 40px;
+}
+/* Table */
+.table__book {
+  border-top: 1px solid #E7E9EB;
+  border-collapse: collapse;
+}
+.table__book th {
+  text-align: left;
+}
+.table__book tr {
+  height: 50px;
+}
+.table__book td:first-child {
+  width: 50px;
+  padding: 0 5px;
+}
+.table__book td {
+  width: 150px;
+}
+.table__book tr:nth-child(even) {
+  background-color: #EBEDEE ;
+}
+
+/* Button */
+.button {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+}
+.button__delete {
+  background-color: #D83237;
+  color: #fff;
+  margin-left: 20px;
+}
+.button__edit {
+  width: 50px;
+}
+.button__add {
+  margin-bottom: 20px;
+}
+.button__add, .button__edit {
+  color: #fff;
+  background-color: #538DDB;
+}
+
+/* Add Book */
+.book__modify {
+  width: 300px;
+}
+.book__modify input {
+  padding: 12px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #757473;
+  width: 100%;
+  box-sizing: border-box;
+}
+.book__modify .button__add {
+  margin: 10px 0;
+}
+
+/*  */
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
